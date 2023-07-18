@@ -1,0 +1,86 @@
+/* .nav-title span i{
+    color: brown;
+} */
+/* Common style here */
+body {
+    max-width: 1920px;
+    color: rgba(140, 87, 238, 0.05), rgba(241, 68, 174, 0.05);
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav section style here */
+.main-nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 220px;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title img {
+    width: 86.026px;
+    height: 40.015px;
+    margin-right: 20px;
+}
+
+.nav-title span {
+    color: #FF42A5;
+}
+
+.nav-title h3 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-content a{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+.text-nav{
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+}
+.text-nav li{
+    list-style: none;
+}
+.text-nav a{
+    text-decoration: none;
+}
+.social-nav{
+    display: flex;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 16px 20px;
+    align-items: center;
+    border-radius: 8px;
+}
+.social-nav li{
+    list-style: none;
+}
+.social-nav a{
+    text-decoration: none;
+}
+.social-nav i{
+    font-size: 25px;
+}
+
+
+/* nav section style ends here */
