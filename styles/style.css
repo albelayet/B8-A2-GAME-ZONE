@@ -381,9 +381,9 @@ body {
 
 .footer .footer-title span {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer ul {
@@ -428,3 +428,58 @@ background-clip: text;
 
 
 /* footer section style ends here */
+
+
+.hiden{
+    display:none;
+}
+
+
+/* Responsive style here*/
+
+
+@media screen and (max-width:476px) {
+    .nav{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 30px;
+    }
+    .nav-content{
+        flex-direction: column;
+        margin: 0;
+        width: 80%;
+    }
+    .nav-title{
+        justify-content: space-evenly;
+        width: 80%;
+    }
+    
+.banner-content{
+    padding: 0;
+}
+
+.banner{
+    flex-direction: column-reverse;
+    margin: 0 20px;
+}
+.online {
+    margin: 20px;
+}
+.online-card{
+    flex-direction: column;
+}
+.instant{
+    flex-direction: column;
+    margin: 0 20px;
+}
+.instant-img{
+    flex-direction: column;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+}
