@@ -202,41 +202,46 @@ body {
 
 
 /* online section style here  */
-.online{
+.online {
     margin: 100px 220px;
 }
-.section-title h3{
+
+.section-title h3 {
     color: #0B0223;
-text-align: center;
-font-size: 3rem;
-font-weight: 700;
-margin: 10px 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
-.section-title h3 span{
+.section-title h3 span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.section-title p{
+
+.section-title p {
     color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: 1.2rem;
-font-weight: 400;
-margin-bottom: 30px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
-.online-card{
+
+.online-card {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 24px;
 }
-.card img:hover{
-   cursor: pointer;
-   
+
+.card img:hover {
+    cursor: pointer;
+
 }
-.card p{
+
+.card p {
     color: #534C64;
     text-align: left;
     font-family: Work Sans;
@@ -248,3 +253,178 @@ margin-bottom: 30px;
 
 
 /* online section style ends  */
+
+
+
+/* play section style here */
+
+.instant {
+    display: flex;
+    margin: 100px 220px;
+    gap: 265px
+}
+
+.instant-content {
+    margin: auto 0;
+}
+
+.instant h3 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+
+.instant h3 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instant-img {
+    display: flex;
+    position: relative;
+}
+
+.cat {
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -145px;
+    margin-bottom: -75px;
+
+}
+
+.horse {
+    right: 0px;
+}
+
+
+/* play section ends here */
+
+/* game section style start here */
+
+.game-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 80px;
+}
+
+.game-container {
+    display: flex;
+    margin: 120px 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.game-item {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 15x 25px;
+}
+
+.game-item p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* game section style ends here */
+
+/* footer section style here */
+
+.footer {
+    background: #0B0223;
+    color: #FFF;
+    padding: 120px 0;
+
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-content: center;
+}
+
+.footer-title img {
+    width: 86.041px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.footer .footer-title h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer .footer-title span {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-icon i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.footer-term ul li {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-term p {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* footer section style ends here */
