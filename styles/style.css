@@ -238,29 +238,39 @@ body {
     gap: 24px;
 }
 
+.card img{
+    /* width: 100%; */
+}
+
 .card-img {
     position: relative;
 }
 
 .card-hover {
     position: absolute;
-    top: 40%;
-    left: 30%;
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.06);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .5s ease;
+  opacity: 0;
+}
+.card-img:hover img {
+    opacity: 0.3;
+}
+
+.card-img:hover .card-hover{
+    opacity: 1;
 }
 
 .card-hover i {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
 }
-.card-hover p{
+.card-hover .card-text{
     color: #FF42A5;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .card img:hover {
@@ -364,6 +374,13 @@ body {
     border-radius: 50px;
     background: #FFF;
     padding: 15x 25px;
+}
+.game-item:hover{
+    cursor: pointer;
+    border: 1px solid #F948B2;
+}
+.game-item img{
+    padding: 10px;
 }
 
 .game-item p {
