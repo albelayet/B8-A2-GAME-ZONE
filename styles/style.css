@@ -483,6 +483,11 @@ body {
 
 
 @media screen and (max-width:476px) {
+    
+    body{
+        margin: 0 auto;
+    }
+    
     .nav {
         flex-direction: column;
         width: 90%;
@@ -586,7 +591,7 @@ body {
     .footer-icon{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 20px;
     }
     .footer .footer-term ul{
         grid-template-columns: repeat(2, 1fr);
@@ -598,5 +603,108 @@ body {
 
 
 
+
+}
+
+@media screen and (min-width:477px) and (max-width: 992px) {
+    
+    body{
+        margin: 0 auto;
+    }
+    .nav {
+
+        width: 90%;
+        margin: 0 30px;
+    }
+    .nav {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 30px;
+    }
+
+    .nav-content {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .nav-title {
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .banner-content {
+        padding: 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .banner-info {
+        padding: 60px 10px;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .btn-content{
+        text-align: center;
+    }
+
+
+    .online {
+        margin: 50px;
+    }
+
+    .online-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .instant {
+        flex-direction: column;
+        margin: 0 20px;
+        gap: 50px;
+    }
+    .instant-content{
+        text-align: center;
+    }
+    .instant h3, .instant p{
+        text-align: center;
+    }
+
+    .instant-img {
+        flex-direction: column;
+    }
+
+    .cat{
+        margin-left: 0;
+    }
+   
+
+
+
+
+
+
+    .game-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .game-section {
+        padding: 20px;
+        margin-top: 80px;
+    }
+    .game-item p{
+        font-size: 25px;
+        padding: 2px 5px;
+    }
+    .game-item img{
+        width: 25%;
+    }
 
 }
